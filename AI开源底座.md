@@ -131,5 +131,5 @@ F --> G[监控运维]
 建议优先选择通过**CNCF认证**的开源项目，并通过[开源合规扫描工具](https://oss.scan.org) 确保技术选型符合企业IT规范。
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3ODY2MzM5MiwtMTIzMjI4NjI2NV19
+eyJoaXN0b3J5IjpbMjA3ODY2MzM5Ml19
 -->
