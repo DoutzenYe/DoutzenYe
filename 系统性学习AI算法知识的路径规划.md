@@ -1,4 +1,4 @@
-
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script> <script>mermaid.initialize({startOnLoad:true});</script>
 ### 系统性学习AI算法知识的路径规划（2025年最新版）
 
 ----------
@@ -81,7 +81,7 @@ C -->|医疗| E[医学影像诊断辅助]
 C -->|制造| F[工业缺陷检测平台] 
 D --> G[模型服务化部署] 
 E --> G[模型服务化部署] 
-F --> G[模型服务化部署] 
+D/E/F --> G[模型服务化部署] 
 G --> H[持续监控与迭代]
 ```
 
@@ -129,5 +129,5 @@ G --> H[持续监控与迭代]
 等特色功能[4]()[5]()。 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzNTcyMzI0XX0=
+eyJoaXN0b3J5IjpbLTc3MTc0MDg4Miw5MTM1NzIzMjRdfQ==
 -->
