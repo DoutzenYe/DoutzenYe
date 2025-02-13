@@ -129,13 +129,14 @@ F --> G[监控运维]
 - DeepSeek系列模型市场占有率已达29%[2]()[6]()  
  
 建议优先选择通过**CNCF认证**的开源项目，并通过[开源合规扫描工具](https://oss.scan.org) 确保技术选型符合企业IT规范。
+
 ```mermaid
 graph LR
-A(输入：topic=ice cream) --> |字典| B(PromptTemplate)  
+A[输入：topic=ice cream] --> |字典| B(PromptTemplate)  
 B -->|PromptValue| C(ChatModel)  
 C -->|ChatMessage| D(StrOutputParser)  
 D --> |字符串| F(结果)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTE2MDgzOSwyMDc4NjYzMzkyXX0=
+eyJoaXN0b3J5IjpbODcwNDgyMTQsMjA3ODY2MzM5Ml19
 -->
