@@ -130,13 +130,7 @@ F --> G[监控运维]
  
 建议优先选择通过**CNCF认证**的开源项目，并通过[开源合规扫描工具](https://oss.scan.org) 确保技术选型符合企业IT规范。
 
-```mermaid
-graph LR
-A(输入：topic=ice cream) --> |字典| B(PromptTemplate)  
-B -->|PromptValue| C(ChatModel)  
-C -->|ChatMessage| D(StrOutputParser)  
-D --> |字符串| F(结果)
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0OTUyNTAxLDIwNzg2NjMzOTJdfQ==
+eyJoaXN0b3J5IjpbMTY4NjMxNzA3Niw4MDQ5NTI1MDEsMjA3OD
+Y2MzM5Ml19
 -->
