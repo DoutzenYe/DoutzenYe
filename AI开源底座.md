@@ -132,11 +132,11 @@ F --> G[监控运维]
 
 ```mermaid
 graph LR
-A[输入：topic=ice cream] --> |字典| B(PromptTemplate)  
+A(输入：topic=ice cream) --> |字典| B(PromptTemplate)  
 B -->|PromptValue| C(ChatModel)  
 C -->|ChatMessage| D(StrOutputParser)  
 D --> |字符串| F(结果)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcwNDgyMTQsMjA3ODY2MzM5Ml19
+eyJoaXN0b3J5IjpbODA0OTUyNTAxLDIwNzg2NjMzOTJdfQ==
 -->
