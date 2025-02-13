@@ -85,8 +85,16 @@
 #### **五、部署架构方案**
 
 **典型技术栈组合**：  
-mmermaid graph TD A[数据层] --> B{特征工程} A --> C{元数据管理} B --> D[模型训练] C --> D D --> E{模型服务化} E --> F[应用集成] F --> G[监控运维]
-
+```mermaid
+graph TD
+A[数据层] --> B{特征工程} 
+A --> C{元数据管理} 
+B --> D[模型训练] 
+C --> D 
+D --> E{模型服务化} 
+E --> F[应用集成] 
+F --> G[监控运维]
+```
 
  
 **硬件配置建议**：  
@@ -123,5 +131,5 @@ mmermaid graph TD A[数据层] --> B{特征工程} A --> C{元数据管理} B --
 建议优先选择通过**CNCF认证**的开源项目，并通过[开源合规扫描工具](https://oss.scan.org) 确保技术选型符合企业IT规范。
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzIyODYyNjVdfQ==
+eyJoaXN0b3J5IjpbMjA3ODY2MzM5MiwtMTIzMjI4NjI2NV19
 -->
